@@ -310,3 +310,50 @@ ul#gallery li a:hover, ul#gallery li a:active {
 }
 /* --------------------------------end of gallery---------------------------------*/
 
+
+/* --------------------------------- Gallery Nav ---------------------------------*/ 
+.gallery_nav li {
+        display: inline-block; 
+        font-family: "Veranda";
+        color: black;
+        font-size: 23px; 
+        font-weight: bold; 
+        margin-left: -2px;
+        margin-right: -2px;
+        margin-top: -23px; 
+        margin-bottom: -9px;
+        padding-top: 16px; 
+        padding-bottom: 24px;
+}
+
+.gallery_nav li:hover { color: #4d627f; }
+
+#gal_left{
+        background-image: url("images/page_gallery/gal_nav_left.gif");
+        background-repeat: no-repeat; 
+        padding-left: 54px; 
+        padding-right: 50px; 
+}
+
+#gal_right{
+        background-image: url("images/page_gallery/gal_nav_right.gif");
+        background-repeat: no-repeat; 
+        padding-left: 60px; 
+        padding-right: 126px; 
+}
+
+#gal_fill{
+        background-image: url("images/page_gallery/gal_nav_fill.gif");
+        background-repeat: repeat-x; 
+        padding-left: 40px; 
+        padding-right: 50px; 
+}
+
+#bubble {
+        position: absolute;
+        left: 10%;
+        width: 30px; height: 20px; 
+        background-color: black; 
+        opacity: 0.4; 
+        filter:alpha(opacity=40); /* For IE8 and earlier */
+}
