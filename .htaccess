@@ -1,0 +1,4 @@
+RewriteEngine on
+RewriteCond %{HTTP_REFERER} !^$
+RewriteCond %{HTTP_REFERER} !^http://(www.)?bmccpinstriping.com/.*$ [NC]
+RewriteRule \.(gif|jpg)& http://bmccpinstriping.com/nostealing.jpg [R,L]

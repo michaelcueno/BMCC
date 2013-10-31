@@ -1,0 +1,72 @@
+body { 
+  background-image:url('images/background.png'); 
+  text-align:center;
+}
+
+ul {
+  list-style-type:none;
+  display:inline;
+  position:relative;
+  padding:0;
+  margin:0;
+}
+
+ul li { 
+  display:inline;
+  margin: 0px;
+  padding-top: 5px;
+  padding-bottom: 2px;
+  padding-left: 8px;
+  padding-right: 10px;
+  font-family:Artbrush;
+  font-size:25px;
+  background-color:red;
+  border:2px solid #000;
+}
+
+ul a:link { text-decoration:none; color:#000;}
+ul a:visited {color:#000; }
+ul a:active { font-color: white; }
+
+h1 { 
+  font-family: Bernard;
+  font-size:20px;
+}
+
+p {
+  font-family: Bernard;
+  font-size:16px;
+  text-align:justify;
+  margin-left:5px;
+  margin-right:5px;
+}
+
+.left {
+  text-align:left;
+}
+
+.content {
+  margin-top:-8px;
+}
+#linebreak_red {
+  border-top:2px solid #660000;
+  margin-bottom:2px;
+}
+#linebreak_black {
+  border-top:2px solid #000000;
+}
+
+#heading {
+  margin:-5px;
+}
+
+#work_example {margin-bottom: 15px;}
+
+@font-face {
+	font-family: Artbrush;
+	src: url('../fonts/Artbrush.ttf');
+}
+@font-face {
+	font-family: Bernard;
+	src: url('../fonts/BERNHC.TTF');
+}
