@@ -357,3 +357,9 @@ ul#gallery li a:hover, ul#gallery li a:active {
         opacity: 0.4; 
         filter:alpha(opacity=40); /* For IE8 and earlier */
 }
+
+#overlay {
+		width: 100%; 
+		height: 100%;
+		text-align: center; 
+}
